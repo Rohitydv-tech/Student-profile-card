@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+.Card {
+    background-color: white;
+    width: 420px;
+    padding: 30px;
+    border-radius: 20px;
+
+    text-align: center;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.profile {
+    border-radius: 50%;
+    object-fit: cover;
+
+    border: 4px solid #667eea;
+    margin-bottom: 15px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.COllege {
+    color: #667eea;
+    font-size: 18px;
+    font-weight: bold;
+
+    margin-bottom: 20px;
+}
+
+.info {
+    margin: 8px 0;
+    color: #555;
+}
+
+.info strong {
+    color: #333;
+}
+
+h2 {
+    color: #333;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+ol {
+    text-align: left;
+    display: inline-block;
+
+    line-height: 1.8;
+    color: #444;
+}
+
+.link {
+    margin-top: 15px;
+}
+
+.link a {
+    display: inline-block;
+
+    text-decoration: none;
+    color: white;
+
+    border: #667eea;
+
+    padding: 10px 20px;
+    margin: 5px;
+
+    border-radius: 20px;
+}
+
+.link a:hover {
+    background-color: #4f5fd5;
+}
+
